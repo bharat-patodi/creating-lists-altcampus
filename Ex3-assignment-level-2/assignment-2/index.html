@@ -14,11 +14,17 @@
             </div>
             <ul class="flex">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Page Layouts</a></li>
-                <li><a href="#">Left Sidebar</a></li>
-                <li><a href="#">Right Sidebar</a></li>
-                <li><a href="#">No Sidebar</a></li>
-                <li><a href="#">Submenu</a></li>
+                <li class="">
+                    <ul class="dropdown">
+                        <li><a href="#" class="dropdown-button">Page Layouts</a></li>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Left Sidebar</a></li>
+                            <li><a href="#">Right Sidebar</a></li>
+                            <li><a href="#">No Sidebar</a></li>
+                            <li><a href="#">Submenu</a></li>
+                        </ul>
+                    </ul>
+                </li>
                 <li><a href="#">Elements</a></li>
             </ul>
         </nav>
@@ -37,24 +43,42 @@
             <section class="intro">
                 <div class="container">
                     <div class="container-inner">
-                        <h2>Magna Feugiat</h2>
+                        <div class="three-line-decor flex">
+                            <div class="three-line-decor-part-01">
+                                <hr class="line line-01">
+                                <hr class="line line-02">
+                                <hr class="line line-03">
+                            </div>
+                            <h2>Magna Feugiat</h2>
+                            <div class="three-line-decor-part-02">
+                                <hr class="line line-04">
+                                <hr class="line line-05">
+                                <hr class="line line-06">
+                            </div>
+                        </div>
                         <p>Aliquet ante lobortis non semper gravida. Accumsan faucibus prasent ante aliquet amet posuere ac cubillia. Eu faucibus mi neque adipisicing mi lorem. Semper blandit. Amet adipscing interdum.</p>
                     </div>
                     <div class="intro__all-cards">
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="intro__card__icon">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
                             <h3>Aliquam Tinci</h3>
-                            <p>My journey is beginning - a journey that I hope will open the doors of life and link my past with my future. A journey that will bring me to a dark place to the edge of the sea high atop Widow's Hill;</p>
+                            <p>My journey is beginning - a journey that I hope will open the doors of life and link my past with my future.</p>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="intro__card__icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
                             <h3>Spide Rman</h3>
-                            <p>Spiderman, Spiderman, does whatever a spider can. Spins a web, any size, catches thieves just like flies, look out! Here comes the Spiderman. Is he strong?</p>
+                            <p>Spins a web, any size, catches thieves just like flies, look out! Here comes the Spiderman. Is he strong?</p>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="intro__card__icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
                             <h3>Spid Erman</h3>
-                            <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. Whenever there's a hang up, you'll find the Spiderman!</p>
+                            <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. You'll find the Spiderman!</p>
                         </div>
                     </div>
                     </div>
@@ -62,26 +86,46 @@
 <!-- The Product Section -->
             <section class="products">
                 <div class="container container-inner">
-                    <h2>Consectetuer Adipis</h2>
-                    <p>This is Kringer, my fearless friend. Fabulous, secret powers were revealed to me the day I held aloft my magic sword and said: "By the Power of Greyskull!"</p>
+                    <div class="three-line-decor flex">
+                            <div class="three-line-decor-part-01">
+                                <hr class="line line-01">
+                                <hr class="line line-02">
+                                <hr class="line line-03">
+                            </div>
+                            <h2>Consectetuer Adipis</h2>
+                            <div class="three-line-decor-part-02">
+                                <hr class="line line-04">
+                                <hr class="line line-05">
+                                <hr class="line line-06">
+                            </div>
+                        </div>
+                        <p>This is Kringer, my fearless friend. Fabulous, secret powers were revealed to me the day I held aloft my magic sword and said: "By the Power of Greyskull!"</p>
                     <div class="product-all-cards">
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="product__card__icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
                             <h3>Spid Erman</h3>
                             <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. Whenever there's a hang up,you'll find the Spiderman!</p>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="product__card__icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
                             <h3>Spid Erman</h3>
                             <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. Whenever there's a hang up,you'll find the Spiderman!</p>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="product__card__icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
                             <h3>Spid Erman</h3>
                             <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. Whenever there's a hang up,you'll find the Spiderman!</p>
                         </div>
                         <div class="card">
-                            <img src="https://via.placeholder.com/60" alt="">
+                            <div class="product__card__icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
                             <h3>Spid Erman</h3>
                             <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up. Whenever there's a hang up,you'll find the Spiderman!</p>
                         </div>
@@ -91,24 +135,36 @@
 <!-- The Blog Section -->
             <section class="blog">
                 <div class="container">
-                    <h2>Sed Faucibus</h2>
-                    <div class="blog-all-cards">
+                    <div class="three-line-decor flex">
+                            <div class="three-line-decor-part-01">
+                                <hr class="line line-01">
+                                <hr class="line line-02">
+                                <hr class="line line-03">
+                            </div>
+                            <h2>Sed Faucibus</h2>
+                            <div class="three-line-decor-part-02">
+                                <hr class="line line-04">
+                                <hr class="line line-05">
+                                <hr class="line line-06">
+                            </div>
+                        </div>
+                        <div class="blog-all-cards">
                         <div class="card">
-                            <img src="https://via.placeholder.com/300x125" alt="">
+                            <img src="assets/images/pic01.jpg" alt="">
                             <h3>Spid Erman</h3>
                             <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up!</p>
                         <a href="#">Learn More</a>
                     </div>
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x125" alt="">
+                        <img src="assets/images/pic02.jpg" alt="">
                         <h3>Spid Erman</h3>
-                        <p>Wealth and fame, He's ignored. Action is his reward.</p>
+                        <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up!</p>
                         <a href="#">Learn More</a>
                     </div>
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x125" alt="">
+                        <img src="assets/images/pic03.jpg" alt="">
                         <h3>Spid Erman</h3>
-                        <p>Wealth and fame, He's ignored. Action is his reward.</p>
+                        <p>Wealth and fame, He's ignored. Action is his reward. To him, life is a great big bang up!</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -117,28 +173,62 @@
 <!-- The Contact Section -->
             <section class="contact">
                 <div class="container container-inner">
-                    <h2>Contact</h2>
+                    <div class="three-line-decor flex">
+                        <div class="three-line-decor-part-01">
+                            <hr class="line line-01">
+                            <hr class="line line-02">
+                            <hr class="line line-03">
+                        </div>
+                        <h2>Contact</h2>
+                        <div class="three-line-decor-part-02">
+                            <hr class="line line-04">
+                            <hr class="line line-05">
+                            <hr class="line line-06">
+                        </div>
+                    </div>
                     <p>In time of ancient gods, warlords and kings, a land in turmoil cried out for a hero. She was Xena, a mighty princess forged in the heat of battle. The power. The passion. The danger. Her courage will change the world.</p>
                     <div class="wrapper">
                         <form action="#">
                             <input type="text" placeholder="Name">
                             <input type="text" placeholder="Email">
                             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                            <input type="submit" value="Send">
-                            <input type="submit" value="Reset">
+                            <input type="submit" value="Send" class="btn submit-btn"><!--
+                            --><input type="submit" value="Reset" class="btn reset-btn">
                         </form>
                         <ul>
-                            <li>Untitled Corporation, address</li>
+                            <li>
+                                <span class="font-awe-li-style"><i class="fas fa-map-marker-alt"></i></span>
+                                <span>Untitled Corporation, this is the second line of add, and this is the third</span>
+                            </li>
                             <hr>
-                            <li>(000) 000 000 000 000</li>
+
+                            <li>
+                                <span class="font-awe-li-style"><i class="fas fa-phone-square-alt"></i></span>
+                                <span>(000) 000 000 000 000</span>
+                            </li>
                             <hr>
-                            <li>gobarputr@treepar.com</li>
+
+                            <li>
+                                <span class="font-awe-li-style"><i class="fas fa-envelope"></i></span>
+                                <span>gobarputr@treepar.com</span>
+                            </li>
                             <hr>
-                            <li>twitter.com/litti</li>
+
+                            <li>
+                                <span class="font-awe-li-style"><i class="fab fa-twitter"></i></span>
+                                <span>twitter.com/litti</span>
+                            </li>
                             <hr>
-                            <li>facebook.com/thatte</li>
+
+                            <li>
+                                <span class="font-awe-li-style"><i class="fab fa-facebook"></i></span>
+                                <span>facebook.com/thatte</span>
+                            </li>
                             <hr>
-                            <li>linkedin.com/special-thatte</li>
+                            <li>
+                                <span class="font-awe-li-style"><i class="fab fa-linkedin"></i></span>
+                                <span>linkedin.com/special-thatte</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -159,5 +249,11 @@
             <p><small>&#x00A9;Untitled. All rights reserved.</small></p>
         </nav>
     </footer>
+<script src="https://kit.fontawesome.com/43da756c39.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!--
+    TODO: The icon-list-style-types? What is a good way to accomplish this?
+-->
